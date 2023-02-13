@@ -1,0 +1,360 @@
+font-face{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+/* ///////////////////////header/////////////////////////////// */
+header{
+    background-image: linear-gradient(0deg,rgb(0,0,0,0.3),rgb(0,0,0,0.3)) ,url("../images/desktop/image-hero.jpg");
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header .container .nav{
+    min-height: 100px;
+    padding-top: 80px;
+    
+}
+
+header .container .nav .offcanvas-body ul li a{
+color: white;
+
+}
+header .container .nav .offcanvas-body ul li a::after{
+  content: "";
+  margin: 3px auto 0;
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  }
+  header .container .nav .offcanvas-body ul li a:hover::after{
+   width: 70%;
+    }
+      
+    
+header .container .row{
+    padding-block: 120px;
+}
+header .container .row .col-lg-7 h1{
+   padding: 20px;
+    font-size:70px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .container .row .col-lg-7{
+    border: 5px solid white;
+}
+/*///////////////////absolute-VR/////////////////////////*/
+ .container .row .col-lg-4{
+    right: 20px;
+    top: 220px;
+    padding: 80px;
+    width: 100%;
+    max-width: 600px;
+    font-family: 'Alata', sans-serif;
+    background-color:hsl(0, 0%, 100%);
+}
+.container .row .col-lg-4 h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container .row .col-lg-4 p{
+    color: hsl(0, 0%, 55%);
+
+}
+
+
+/* /////////////////////////creations-row/////////////////////////////// */
+.container .row .col-lg-10 h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container .row .col-lg-2 button{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-left:auto;
+    color: black;
+}
+.container .row .col-lg-2 button:hover{
+    background-color: black;
+    color: white;
+}
+.container .row .col-lg-10,.col-lg-2{
+    margin-top: 50px;
+}
+
+  .container .row .col-lg-12 button{
+    display: none;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-left:auto;
+  }
+  .container .row .col-lg-3 .card picture .card-img-overlay:hover{
+   
+    color: black;
+  }
+
+  .card .card-img-overlay > h4:hover{
+        color: red;
+  }
+  
+  .container .row .col-lg-3 .card  picture  h4{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 42px;
+    z-index: 3;
+  }
+  
+
+  .container .row .col-lg-3 .card  .overlay::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(180deg, rgba(235, 235, 235, 0), rgba(0, 0, 0, 0.73));
+  }
+  .container .row .col-lg-3 .card .overlay:hover{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(256,256,256,0.75);
+    color: black;
+  }
+
+
+/* ////////////////////    FOOTER  ///////////////////////// */
+footer{
+background-color: black;
+margin-top:100px;
+}
+footer .container .row .col-6 .list {
+    color: white;
+}
+footer .container .row .col-6  .copyright{
+    color: hsl(0, 0%, 55%);
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+footer .container .row .col-6 .icons{
+    gap: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+footer .list .list-inline .list-inline-item a::after{
+  content: "";
+  margin: 3px auto 0;
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  }
+  footer .list .list-inline .list-inline-item a:hover::after{
+   width: 70%;
+    }
+
+    footer .container .row .col-6 .icons a::after{
+      content: "";
+      margin: 3px auto 0;
+      display: block;
+      width: 0;
+      height: 1px;
+      background-color: white;
+      }
+      footer .container .row .col-6 .icons a:hover::after{
+       width: 70%;
+        }
+      
+/* ///////////////////////Responsive/////////////////////////////////// */
+@media screen and (max-width: 992px){
+      
+  .container .row .col-lg-4{
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin-block: 20px;
+      padding:20px;
+      text-align: center;
+      max-width: 100%;
+  }
+  .container .row .text{
+      position: relative;
+      flex-direction: column;
+    }
+    .container .row .picture{
+      flex-direction: column;
+    }
+    .container .row .col-lg-10{
+      text-align: center;
+      padding-top:100px;
+        margin-top: 0;
+    }
+    footer .container .row .col-6 .list ul{
+    
+      gap: 1px;
+      font-size: smaller;  
+  }
+}
+/* ///////////////////////////////////////////////////// */
+
+@media screen and (max-width: 768px){
+
+ 
+    header .container .nav .offcanvas-body ul li a:hover::after{
+     width: 10%;
+      }
+       
+
+    header .container .nav{
+      padding-top: 10px;
+    }
+    .container .row .picture .col-lg-8{
+      margin-top: 50px;
+    }
+    .container .row .col-lg-4{
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin-block: 20px;
+        padding:20px;
+        text-align: center;
+      }
+    .container .row .text{
+        position: relative;
+        flex-direction: column;
+      }
+      .container .row .picture{
+        flex-direction: column;
+      }
+      .container .row .col-lg-10{
+        padding-top:50px;
+        margin-top: 50px;
+      }
+      .container .row .col-lg-10 h1{
+        font-size: 30px;
+    }
+      .container .row .col-lg-10 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+      .container .row .col-lg-2{
+        margin-top: 0;
+    }
+    footer .container .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .container .row .col-6{
+        margin-top: 20px;
+    }
+    footer .container .row .col-6 .logo img{
+        width: 100%;
+    }
+    footer .container .row .col-6 .list ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        
+    }
+    footer .container .row .col-6 .icons{
+        
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .container .row .col-6  .copyright{
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .container .row .col-lg-10 h1{
+      text-align: center;
+    }
+    .container .row .col-lg-2 button{
+      display: none;
+    }
+
+    .container .row .col-lg-12 button{
+        display: block;
+        margin:40px auto;
+        
+      }
+      .container .row .col-lg-12 button:hover{
+        background-color: black;
+        color: white;
+    }
+      .container .row .col-lg-3 .card picture h4 {
+        width: 80%;
+      }
+   
+}
+/* //////////////////////////////////////////////////// */
+
+@media screen and (max-width: 576px){
+
+    header .container .row .col-lg-7 h1 {
+      padding:5px;
+      font-size: clamp(3rem,5vw, 5rem);
+      
+      }
+     .container .row .col-lg-3 .card picture h4 {
+        width: 50%;
+        font-size: 24px;
+      }
+      footer .container .row .col-6 .list ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        font-size: smaller;
+        text-align: center;
+        
+    }
+}
+
+/* ///////////////////////////////////////////////////////// */
+@media screen and (max-width:380px) {
+  header .container .row .col-lg-7 h1 {
+    padding:5px;
+    font-size: clamp(2rem,5vw, 5rem);
+    
+    }
+}

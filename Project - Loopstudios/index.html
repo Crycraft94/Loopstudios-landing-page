@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Loopstudios landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="nav">
+            <div class="col-12">
+                <nav class="navbar bg-transparent navbar-expand-lg">  
+                      <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt=""></a>
+                      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <img src="./assets//images/icon-hamburger.svg" alt="">
+                      </button>
+                      <div class="offcanvas offcanvas-end w-100 bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="#"><img src="./assets/images/logo.svg" alt=""></a></h5>
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></a></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                            <li class="nav-item ms-lg-4  ms-sm-0">
+                              <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item ms-lg-4  ms-sm-0">
+                              <a class="nav-link" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item ms-lg-4  ms-sm-0">
+                                <a class="nav-link" href="#">Events</a>
+                              </li>
+                              <li class="nav-item ms-lg-4  ms-sm-0">
+                                <a class="nav-link" href="#">Products</a>
+                              </li>
+                              <li class="nav-item ms-lg-4 ms-sm-0">
+                                <a class="nav-link" href="#">Support</a>
+                              </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </nav>
+                  <!-- ////////////////////////navbar//////////////////////////// -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12 justify-content-center align-content-center text-light">
+                    <h1>
+                        Immersive Experiences that deliver
+                    </h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-----------------vr section---------------->
+<main>
+    <div class="container my-5" style="min-height: 600px;">
+        <div class="row position-relative">
+            <div class="picture">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <img class="w-100" src="./assets/images/desktop/image-interactive.jpg" alt="">
+                </div>
+            </div>
+           <div class="text">
+            <div class="col-lg-4 col-md-12 col-sm-12 position-absolute text-dark">
+                <h1>
+                    The leader in interactive VR
+                </h1>
+                <p>
+                    Founded in 2011, Loopstudios has been producing world-class virtual reality
+                    projects for some of the best companies around the globe. Our award-winning
+                    creations have transformed businesses through digital experiences that bind
+                    to their brand.
+                </p>
+            </div>
+           </div>
+         
+        </div>
+    </div>
+    <!----------------- creation ---------------->
+    <div class="container container-creations py-5">
+        <div class="row row-title pt-5">
+            <div class="col-lg-10">
+                <h1>Our creations</h1>
+            </div>
+            <div class="col-lg-2">
+                <button class="btn btn-light border-dark border-1 w-100 ">See All</button>
+            </div>
+        </div>
+    </div>
+    <div class="container container-pics py-4">
+        <div class="row row-pics g-4">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card card-inverse text-start">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets/images/mobile/image-curiosity.jpg">
+                        <img class="w-100" src="./assets/images/desktop/image-curiosity.jpg">
+
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-light">The Curiosity</h4>
+                        </div> 
+                      </picture>
+                      <div class="overlay"></div>
+                      
+                </div>  
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card card-inverse text-start">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets//images/mobile/image-deep-earth.jpg">
+                        <img class="w-100" src="./assets/images//desktop/image-deep-earth.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-light">Deep Earth</h4>
+                            </div>
+                      </picture>
+                       
+                      <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card card-inverse text-start">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets/images/mobile/image-fisheye.jpg">
+                        <img class="w-100" src="./assets/images/desktop/image-fisheye.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-light">Make it fisheye</h4>
+                            </div>
+                      </picture>
+                       
+                      <div class="overlay"></div>
+                </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card card-inverse text-start">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets/images/mobile/image-from-above.jpg">
+                        <img class="w-100" src="./assets/images/desktop/image-from-above.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-light">From up above vr</h4>
+                            </div>
+                      </picture>
+                       
+                      <div class="overlay"></div>
+                </div>
+                
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card card-inverse text-start">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets/images/mobile/image-grid.jpg">
+                        <img class="w-100" src="./assets/images/desktop/image-grid.jpg">
+                        <div class="card-img-overlay w-50">
+                            <h4 class="card-title text-light">The grid</h4>
+                            </div>
+                      </picture>
+                       
+                      <div class="overlay"></div>
+                </div>
+               
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card card-inverse text-start">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets/images/mobile/image-night-arcade.jpg">
+                        <img class="w-100" src="./assets/images/desktop/image-night-arcade.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-light">night arcade</h4>
+                            </div>
+                      </picture>
+                       
+                      <div class="overlay"></div>
+                </div>
+                
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card card-inverse text-start">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets/images/mobile/image-pocket-borealis.jpg">
+                        <img class="w-100" src="./assets/images/desktop/image-pocket-borealis.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-light">pocket borealis</h4>
+                            </div>
+                      </picture>
+                       
+                      <div class="overlay"></div>
+                </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <picture>
+                        <source class="w-100" media="(max-width:650px)" srcset="./assets/images/mobile/image-soccer-team.jpg">
+                        <img class="w-100" src="./assets/images/desktop/image-soccer-team.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-light">soccer team vr</h4>
+                            </div>
+                      </picture>
+                       
+                      <div class="overlay"></div>
+                </div>
+               
+            </div>
+            <div class="col-lg-12 col-sm-12">
+                <button class="btn btn-light  border-dark border-1 w-100 ">See All</button>
+            </div>
+      
+    </div>
+    </div> 
+</main>
+
+<footer>
+    <div class="container py-5">
+            <div class="row">
+                <div class="col-6">
+                    <div class="logo justify-content-center">
+                        <img src="./assets//images/logo.svg" alt="">
+                    </div>
+                    <div class="list pt-4">
+                        <ul class="list-inline d-flex text-center">
+                            <li class="list-inline-item me-lg-5 me-sm-0  my-sm-2">
+                                <a class="nav-link"  href="#">About</a>
+                            </li>
+                            <li class="list-inline-item me-lg-5 me-sm-0  my-sm-2">
+                                <a class="nav-link" href="#">Careers</a></li>
+                            <li class="list-inline-item me-lg-5 me-sm-0 my-sm-2">
+                                <a class="nav-link" href="#">Events</a>
+                            </li>
+                            <li class="list-inline-item me-lg-5 me-sm-0 my-sm-2">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="list-inline-item me-lg-5 me-sm-0 my-sm-2">
+                                <a class="nav-link" href="#">Support</a></li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="icons">
+                        <a href="#"><img src="./assets/images/icon-facebook.svg" alt=""></a>
+                        <a href="#"><img src="./assets/images/icon-twitter.svg" alt=""></a>
+                        <a href="#"><img src="./assets//images/icon-pinterest.svg" alt=""></a>
+                        <a href="#"><img src="./assets//images/icon-instagram.svg" alt=""></a>
+                    </div>
+                    <div class="copyright d-flex pt-4">
+                        <p>© 2021 Loopstudios. All rights reserved.</p>
+                    </div>
+                </div>
+
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
